@@ -1139,6 +1139,10 @@ body {
         padding-right: 30px;
     }
 
+    .navigation .nav-container {
+        padding: 15px 30px;
+    }
+
     .hero-top {
         gap: 50px;
     }
@@ -1163,6 +1167,10 @@ body {
     .footer {
         padding-left: 25px;
         padding-right: 25px;
+    }
+
+    .navigation .nav-container {
+        padding: 15px 25px;
     }
 
     .nav-left img {
@@ -1239,6 +1247,10 @@ body {
     .footer {
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .navigation .nav-container {
+        padding: 15px 20px;
     }
 
     .title {
@@ -1526,6 +1538,7 @@ body {
     }
 
 }
+
 
 
 
