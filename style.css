@@ -85,7 +85,6 @@ body {
     padding: 15px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .nav-left img {
@@ -1024,6 +1023,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .subscribe-button {
@@ -1251,6 +1252,9 @@ body {
     }
 
     .navigation .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         padding: 15px 20px;
     }
 
@@ -1539,6 +1543,7 @@ body {
     }
 
 }
+
 
 
 
