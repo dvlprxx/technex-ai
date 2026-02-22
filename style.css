@@ -1487,6 +1487,10 @@ body {
         box-shadow: var(--box-shadow);
     }
 
+    .work-number {
+        font-size: var(--fontim36);
+    }
+
     .benefits-card-1,
     .benefits-card-2,
     .benefits-card-3 {
@@ -1535,4 +1539,5 @@ body {
     }
 
 }
+
 
