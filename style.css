@@ -126,9 +126,9 @@ body {
 }
 
 .nav-right {
+    width: 200px;
     display: flex;
     gap: 10px;
-    width: 200px;
     justify-content: flex-end;
 }
 
@@ -1526,6 +1526,7 @@ body {
     }
 
 }
+
 
 
 
