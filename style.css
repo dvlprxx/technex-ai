@@ -37,6 +37,14 @@ html {
 
 * {
     padding: 0;
+    box-sizing: border-box
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
 }
 
 body {
@@ -89,6 +97,8 @@ body {
 
 .nav-left img {
     width: 200px;
+    max-width: 100%;
+    height: auto;
 }
 
 .nav-center {
@@ -171,6 +181,8 @@ body {
 
 .hero-right img {
     width: 400px;
+    max-width: 100%;
+    height: auto;
 }
 
 .hero-bottom {
@@ -1523,3 +1535,4 @@ body {
     }
 
 }
+
