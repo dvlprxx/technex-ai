@@ -82,7 +82,7 @@ body {
 .navigation .nav-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 15px 25px;
+    padding: 15px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -90,8 +90,6 @@ body {
 
 .nav-left img {
     width: 200px;
-    max-width: 100%;
-    height: auto;
 }
 
 .nav-center {
@@ -174,8 +172,6 @@ body {
 
 .hero-right img {
     width: 400px;
-    max-width: 100%;
-    height: auto;
 }
 
 .hero-bottom {
@@ -784,7 +780,6 @@ body {
 
 .faq-left img {
     width: 400px;
-    height: auto;
 }
 
 .accordion {
@@ -868,7 +863,6 @@ body {
 
 .contact-left img {
     width: 500px;
-    height: auto;
 }
 
 .heading {
@@ -1530,6 +1524,7 @@ body {
     }
 
 }
+
 
 
 
