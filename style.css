@@ -779,6 +779,8 @@ body {
 
 .faq-left img {
     width: 400px;
+    max-width: 100%;
+    height: auto;
 }
 
 .accordion {
@@ -862,6 +864,8 @@ body {
 
 .contact-left img {
     width: 500px;
+    max-width: 100%;
+    height: auto;
 }
 
 .heading {
@@ -1517,4 +1521,5 @@ body {
     .footer-center {
         gap: 25px;
     }
+
 }
