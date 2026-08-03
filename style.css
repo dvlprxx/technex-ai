@@ -1283,6 +1283,10 @@ body {
         text-align: center;
     }
 
+    .hero-subtitle {
+        text-align: center;
+    }
+
     .hero-right img {
         display: none;
     }
