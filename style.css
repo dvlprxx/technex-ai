@@ -52,11 +52,12 @@ body {
     background: linear-gradient(to right, #4A90E2, #50E3C2);
     text-align: center;
     width: 200px;
-    padding: 15px 30px;
+    padding: 18px 30px;
     display: inline-block;
     border-radius: 50px;
     text-decoration: none;
     box-shadow: var(--box-shadow-button);
+    font-size: var(--font22);
     border: none;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -887,6 +888,7 @@ body {
 .form .input {
     background: white;
     border: none;
+    font-size: 18px;
     padding: 15px 20px;
     border-radius: 20px;
     margin-top: 15px;
@@ -908,14 +910,14 @@ body {
 
 .form .forgot-password {
     display: block;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: right;
 }
 
 .form .forgot-password a {
-    font-size: var(--font12);
+    font-size: 16px;
     color: var(--color-one);
-    text-decoration: none;
 }
 
 .form .login-button {
@@ -927,6 +929,7 @@ body {
     padding-block: 15px;
     margin: 20px auto;
     border-radius: 20px;
+    font-size: 18px;
     box-shadow: var(--box-shadow);
     border: none;
     transition: all 0.2s ease-in-out;
@@ -949,7 +952,7 @@ body {
 .social-account-container .title {
     display: block;
     text-align: center;
-    font-size: var(--font12);
+    font-size: 14px;
     color: rgb(170, 170, 170);
 }
 
@@ -958,7 +961,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 15px;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 .social-account-container .social-accounts .social-button {
@@ -995,7 +998,7 @@ body {
 
 .agreement a {
     color: var(--color-one);
-    font-size: var(--font10);
+    font-size: 14px
 }
 
 /* Contact END */
@@ -1258,6 +1261,11 @@ body {
         padding: 15px 20px;
     }
 
+    .hero {
+        height: 100vh;
+        justify-content: center;
+    }
+    
     .title {
         font-size: var(--font36);
     }
@@ -1268,6 +1276,11 @@ body {
 
     .hero-left {
         width: 50%;
+        align-items: center;
+    }
+
+    .hero-title {
+        text-align: center;
     }
 
     .hero-right img {
@@ -1276,6 +1289,9 @@ body {
 
     .hero-top {
         gap: 0;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
     }
 
     .hero-bottom {
@@ -1301,6 +1317,10 @@ body {
 
     .work-item {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features {
+        flex-direction: column;
     }
 
     .features-container {
@@ -1532,6 +1552,15 @@ body {
     .testimonials-card-2,
     .testimonials-card-3 {
         grid-column: span 12 / span 12;
+    }
+
+    .footer-container {
+        padding: 30px 30px 10px 30px;
+    }
+
+    .footer-top {
+        flex-wrap: nowrap;
+        gap: 0;
     }
 
     .features-subtext {
